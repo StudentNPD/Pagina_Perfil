@@ -1,0 +1,227 @@
+:root {
+  --color-card: white;
+}
+
+body {
+  background-color: whitesmoke;
+  font-family: "Roboto", "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0% 15%;
+  display: flex;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #333;
+}
+
+h3 {
+  padding-inline: 10px;
+  font-weight: normal;
+}
+
+/* NAVBAR */
+.navbar {
+  background-color: #333333;
+  color: #fff;
+  width: 100%;
+  position: sticky;
+}
+
+.navbar-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1% 0%;
+  width: 70%;
+  margin: 0% 16%;
+}
+
+.logo {
+  align-content: center;
+}
+
+.logo a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: white;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.navbar button {
+  background-color: #00bcd4;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: bold;
+  width: 143px;
+  height: 40px;
+}
+
+/* TARJETA USUARIO */
+.card-usuario {
+  margin-top: 5%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.div1 {
+  background-color: #00bcd4;
+  height: 4%;
+  border-radius: 20px 20px 0px 0px;
+  padding: 6%;
+}
+
+.div1 > img {
+  width: 200px;
+  height: 200px;
+  border-radius: 54%;
+  margin-top: 2%;
+  border: 5px solid white;
+}
+
+.div3 {
+  background-color: white;
+  padding: 6%;
+  font-size: 20px;
+  padding-top: 20%;
+  border-radius: 0px 0px 20px 20px;
+  font-family: "Roboto", "Helvetica Neue", Arial, sans-serif;
+}
+
+.div3 h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.div3 h2 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.div3 p:first-of-type {
+  font-size: 1.2rem;
+  color: #666;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  line-height: 1.4;
+}
+
+.div3 p:last-of-type {
+  font-size: 1rem;
+  color: #777;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.div3 button {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #333;
+  background-color: #ececec;
+  border: 0;
+  padding: 10px;
+  border-radius: 10px;
+  text-transform: capitalize;
+}
+
+/* CARD SOLICITUD */
+.solicitudes {
+  display: block;
+  background-color: var(--color-card);
+  margin-top: 5%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  border-radius: 20px 20px 20px 20px;
+  width: 75%;
+}
+
+.usuario-solicitud {
+  display: flex;
+  padding: 2px;
+}
+
+.usuario-solicitud img {
+  width: 50px;
+  height: 50px;
+  border-radius: 15%;
+  border: 2px solid skyblue;
+}
+
+.usuario-solicitud button {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  border: 1px solid #ff7c7c;
+  color: #ff7c7c;
+  background-color: transparent;
+  margin: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* CARD TUS CONEXIONES */
+.conexiones {
+  background-color: var(--color-card);
+  display: block;
+  margin-top: 5%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  border-radius: 20px 20px 20px 20px;
+  width: 75%;
+}
+
+.amigos {
+  display: flex;
+}
+
+.amigos img {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  border: 1px solid black;
+}
+
+/* CARD EDUCATION */
+.card-education {
+  background-color: var(--color-card);
+
+  margin-top: 5%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  border-radius: 20px 20px 20px 20px;
+}
+
+/* Estructura */
+.mitad1,
+.mitad2 {
+  display: block;
+  width: 100%;
+  padding: 30px;
+}
